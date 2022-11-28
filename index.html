@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>FORM ĐĂNG KÝ</h1>
+      <form action="" method="POST" class="form" id="form-1">
+        <div class="form-group">
+          <label for="userName" class="form-label">User Name</label>
+          <input type="text" id="userName" name="userName" class="form-control" placeholder="Ex: Anh Hải đẹp trai vãi đái" />
+          <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="password" class="form-label">Password</label>
+          <input type="password" id="password" name="password" class="form-control" placeholder="Password" />
+          <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="password-confirm" class="form-label">Password Confirm</label>
+          <input type="password" id="password-confirm" name="password-confirm" class="form-control" placeholder="Re-password" />
+          <span class="form-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input type="text" id="email" name="email" class="form-control" placeholder="Ex: abc@gmail.com" />
+          <span class="form-message"></span>
+        </div>
+        <button class="form-submit">REGISTER</button>
+      </form>
+    </div>
+  </body>
+  <script src="./validate.js"></script>
+  <script src="./index.js"></script>
+</html>
